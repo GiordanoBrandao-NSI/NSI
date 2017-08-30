@@ -1,0 +1,99 @@
+body{
+    
+    background-color: white;
+}
+@fontface {
+    font-family: prime;
+    src: url(Prime%20Light.otf);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.navbar input{
+    padding-top: 5px;
+    margin-top: 9px;
+}
+input[type=text] {
+    align-content: center;
+    width: 200px;
+}
+.main {
+    margin-top: 30px;
+}
+div.image{
+    margin-left: 600px;
+    margin-top: 60px;
+    height: 190px;
+    width: 190px;
+    content:url(http://i.imgur.com/H6OyZYD.png);
+}
+#banner{
+    color: blue;
+}
+.floating-box {
+    margin-bottom: 18px;
+    float: left;
+    width: 650px;
+    height: 300px;
+}
+.alerta{
+    color: black;
+}
+.rodamao {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.rodamao a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.rodamao input{
+    padding-top: 5px;
+    margin-top: 9px;
+}
+div.banner {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: black;
+    width: 1000px;
+    height: 270px;
+    content:url(aaa.png);
+    
+}
+div.artigo {
+    margin: 10px;
+    margin-top: auto;
+    background-color: lawngreen;
+    width: 100px;
+    height: 50px;
+    content:url(http://www.camara.gov.br/internet/bancoimagem/banco/img20150220151625496267MED.jpg);
+}
+div.videos {
+    margin: 10px;
+    margin-top: auto;
+    background-color: lawngreen;
+    width: 100px;
+    height: 50px;
+}
+div.corpo {
+    margin-top: 25px;
+}
